@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_bg"
+    android:padding="15dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/tv1_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textColor="@color/iceblue"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv2_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/iceblue"
+        android:text="NIM"/>
+
+    <TextView
+        android:id="@+id/tv3_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/iceblue"
+        android:text="Nama"/>
+
+    <TextView
+        android:id="@+id/tv4_angkatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/iceblue"
+        android:text="Angkatan"/>
+
+</LinearLayout>

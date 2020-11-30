@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="70dp"
+    android:background="@mipmap/back"
+    tools:context=".AddActivity">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:background="@drawable/textview2"
+        android:text="Absensi Mahasiswa"
+        android:textSize="25sp"
+        android:textColor="@color/iceblue"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/in_nim"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/textview"
+        android:textSize="20sp"
+        android:hint="Masukkan Nim"/>
+
+    <EditText
+        android:id="@+id/in_nama"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:background="@drawable/textview"
+        android:inputType="text"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:hint="Masukkan Nama"/>
+
+    <EditText
+        android:id="@+id/in_angkatan"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:background="@drawable/textview"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:hint="Masukkan Angkatan"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_simpan"
+            android:text="Simpan" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btn_hapus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_hapus"
+            android:text="Hapus"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>
